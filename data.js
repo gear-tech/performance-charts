@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1657561103120,
+  "lastUpdate": 1657563695950,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -1328,6 +1328,670 @@ window.BENCHMARK_DATA = {
             "value": 104100000,
             "unit": "ns",
             "range": "± 69886264"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "committer": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "id": "6f075c82f70bc0c93bf2a70854e5436522fd6861",
+          "message": "Run test measurements on Xeon instance",
+          "timestamp": "2022-07-11T17:48:29Z",
+          "url": "https://github.com/gear-tech/gear/commit/6f075c82f70bc0c93bf2a70854e5436522fd6861"
+        },
+        "date": 1657563695367,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total time",
+            "value": 17297000000,
+            "unit": "ns",
+            "range": "± 43696685659"
+          },
+          {
+            "name": "pallet-gear - mock::__construct_runtime_integrity_test::runtime_integrity_tests",
+            "value": 33500000,
+            "unit": "ns",
+            "range": "± 12816005"
+          },
+          {
+            "name": "pallet-gear - schedule::test::print_test_schedule",
+            "value": 43500000,
+            "unit": "ns",
+            "range": "± 22615260"
+          },
+          {
+            "name": "pallet-gear - tests::call_forbidden_function",
+            "value": 51500000,
+            "unit": "ns",
+            "range": "± 19810350"
+          },
+          {
+            "name": "pallet-gear - tests::cascading_messages_with_value_do_not_overcharge",
+            "value": 231300000,
+            "unit": "ns",
+            "range": "± 53900000"
+          },
+          {
+            "name": "pallet-gear - tests::defer_program_initialization",
+            "value": 102400000,
+            "unit": "ns",
+            "range": "± 23388886"
+          },
+          {
+            "name": "pallet-gear - tests::distributor_distribute",
+            "value": 65400000,
+            "unit": "ns",
+            "range": "± 19975985"
+          },
+          {
+            "name": "pallet-gear - tests::distributor_initialize",
+            "value": 63300000,
+            "unit": "ns",
+            "range": "± 30318476"
+          },
+          {
+            "name": "pallet-gear - tests::events_logging_works",
+            "value": 74900000,
+            "unit": "ns",
+            "range": "± 25727222"
+          },
+          {
+            "name": "pallet-gear - tests::execution_over_blocks",
+            "value": 882200000,
+            "unit": "ns",
+            "range": "± 108052579"
+          },
+          {
+            "name": "pallet-gear - tests::exit_handle",
+            "value": 80800000,
+            "unit": "ns",
+            "range": "± 41177178"
+          },
+          {
+            "name": "pallet-gear - tests::exit_init",
+            "value": 89400000,
+            "unit": "ns",
+            "range": "± 17973313"
+          },
+          {
+            "name": "pallet-gear - tests::gas_spent_precalculated",
+            "value": 83200000,
+            "unit": "ns",
+            "range": "± 39811556"
+          },
+          {
+            "name": "pallet-gear - tests::gas_spent_vs_balance",
+            "value": 161300000,
+            "unit": "ns",
+            "range": "± 38450097"
+          },
+          {
+            "name": "pallet-gear - tests::init_message_logging_works",
+            "value": 75000000,
+            "unit": "ns",
+            "range": "± 22578751"
+          },
+          {
+            "name": "pallet-gear - tests::init_wait_reply_exit_cleaned_storage",
+            "value": 132800000,
+            "unit": "ns",
+            "range": "± 45630691"
+          },
+          {
+            "name": "pallet-gear - tests::lazy_pages",
+            "value": 85800000,
+            "unit": "ns",
+            "range": "± 15509996"
+          },
+          {
+            "name": "pallet-gear - tests::mailbox_threshold_works",
+            "value": 120900000,
+            "unit": "ns",
+            "range": "± 35401836"
+          },
+          {
+            "name": "pallet-gear - tests::mailbox_works",
+            "value": 59500000,
+            "unit": "ns",
+            "range": "± 13872634"
+          },
+          {
+            "name": "pallet-gear - tests::memory_access_cases",
+            "value": 90100000,
+            "unit": "ns",
+            "range": "± 37447162"
+          },
+          {
+            "name": "pallet-gear - tests::messages_processing_works",
+            "value": 77600000,
+            "unit": "ns",
+            "range": "± 13770983"
+          },
+          {
+            "name": "pallet-gear - tests::messages_to_paused_program_skipped",
+            "value": 79100000,
+            "unit": "ns",
+            "range": "± 25703890"
+          },
+          {
+            "name": "pallet-gear - tests::messages_to_uninitialized_program_wait",
+            "value": 78600000,
+            "unit": "ns",
+            "range": "± 22685678"
+          },
+          {
+            "name": "pallet-gear - tests::no_redundant_gas_value_after_exiting",
+            "value": 69700000,
+            "unit": "ns",
+            "range": "± 23008911"
+          },
+          {
+            "name": "pallet-gear - tests::paused_program_keeps_id",
+            "value": 90400000,
+            "unit": "ns",
+            "range": "± 30411182"
+          },
+          {
+            "name": "pallet-gear - tests::program_lifecycle_works",
+            "value": 82700000,
+            "unit": "ns",
+            "range": "± 32425452"
+          },
+          {
+            "name": "pallet-gear - tests::program_messages_to_paused_program_skipped",
+            "value": 125300000,
+            "unit": "ns",
+            "range": "± 39847333"
+          },
+          {
+            "name": "pallet-gear - tests::replies_to_paused_program_skipped",
+            "value": 71400000,
+            "unit": "ns",
+            "range": "± 30774015"
+          },
+          {
+            "name": "pallet-gear - tests::restrict_start_section",
+            "value": 62200000,
+            "unit": "ns",
+            "range": "± 19369047"
+          },
+          {
+            "name": "pallet-gear - tests::resume_program_works",
+            "value": 98200000,
+            "unit": "ns",
+            "range": "± 46289955"
+          },
+          {
+            "name": "pallet-gear - tests::send_message_expected_failure",
+            "value": 70700000,
+            "unit": "ns",
+            "range": "± 24580683"
+          },
+          {
+            "name": "pallet-gear - tests::send_message_works",
+            "value": 72100000,
+            "unit": "ns",
+            "range": "± 23304291"
+          },
+          {
+            "name": "pallet-gear - tests::send_reply_failure_to_claim_from_mailbox",
+            "value": 64100000,
+            "unit": "ns",
+            "range": "± 19669519"
+          },
+          {
+            "name": "pallet-gear - tests::send_reply_value_claiming_works",
+            "value": 77800000,
+            "unit": "ns",
+            "range": "± 37048076"
+          },
+          {
+            "name": "pallet-gear - tests::send_reply_works",
+            "value": 64900000,
+            "unit": "ns",
+            "range": "± 18641083"
+          },
+          {
+            "name": "pallet-gear - tests::spent_gas_to_reward_block_author_works",
+            "value": 66200000,
+            "unit": "ns",
+            "range": "± 28378865"
+          },
+          {
+            "name": "pallet-gear - tests::submit_program_expected_failure",
+            "value": 50500000,
+            "unit": "ns",
+            "range": "± 19080094"
+          },
+          {
+            "name": "pallet-gear - tests::submit_program_fails_on_duplicate_id",
+            "value": 67400000,
+            "unit": "ns",
+            "range": "± 22782449"
+          },
+          {
+            "name": "pallet-gear - tests::test_async_messages",
+            "value": 465300000,
+            "unit": "ns",
+            "range": "± 55860630"
+          },
+          {
+            "name": "pallet-gear - tests::test_code_is_not_reset_within_program_submission",
+            "value": 66400000,
+            "unit": "ns",
+            "range": "± 36859734"
+          },
+          {
+            "name": "pallet-gear - tests::test_code_is_not_submitted_twice_after_program_submission",
+            "value": 51100000,
+            "unit": "ns",
+            "range": "± 30774827"
+          },
+          {
+            "name": "pallet-gear - tests::test_code_submission_pass",
+            "value": 59300000,
+            "unit": "ns",
+            "range": "± 16510905"
+          },
+          {
+            "name": "pallet-gear - tests::test_create_program_duplicate",
+            "value": 102600000,
+            "unit": "ns",
+            "range": "± 40603448"
+          },
+          {
+            "name": "pallet-gear - tests::test_create_program_duplicate_in_one_execution",
+            "value": 79300000,
+            "unit": "ns",
+            "range": "± 18767258"
+          },
+          {
+            "name": "pallet-gear - tests::test_create_program_miscellaneous",
+            "value": 109600000,
+            "unit": "ns",
+            "range": "± 24017493"
+          },
+          {
+            "name": "pallet-gear - tests::test_create_program_no_code_hash",
+            "value": 213400000,
+            "unit": "ns",
+            "range": "± 48392561"
+          },
+          {
+            "name": "pallet-gear - tests::test_create_program_simple",
+            "value": 131800000,
+            "unit": "ns",
+            "range": "± 36248586"
+          },
+          {
+            "name": "pallet-gear - tests::test_create_program_with_exceeding_value",
+            "value": 68600000,
+            "unit": "ns",
+            "range": "± 24597560"
+          },
+          {
+            "name": "pallet-gear - tests::test_create_program_with_value_lt_ed",
+            "value": 110700000,
+            "unit": "ns",
+            "range": "± 13907192"
+          },
+          {
+            "name": "pallet-gear - tests::test_create_program_without_gas_works",
+            "value": 95400000,
+            "unit": "ns",
+            "range": "± 28831233"
+          },
+          {
+            "name": "pallet-gear - tests::test_message_processing_for_non_existing_destination",
+            "value": 57200000,
+            "unit": "ns",
+            "range": "± 28403520"
+          },
+          {
+            "name": "pallet-gear - tests::test_reply_to_terminated_program",
+            "value": 89900000,
+            "unit": "ns",
+            "range": "± 26879174"
+          },
+          {
+            "name": "pallet-gear - tests::test_same_code_submission_fails",
+            "value": 54500000,
+            "unit": "ns",
+            "range": "± 26093102"
+          },
+          {
+            "name": "pallet-gear - tests::test_two_contracts_composition_works",
+            "value": 162300000,
+            "unit": "ns",
+            "range": "± 40627699"
+          },
+          {
+            "name": "pallet-gear - tests::uninitialized_program_should_accept_replies",
+            "value": 84400000,
+            "unit": "ns",
+            "range": "± 13595587"
+          },
+          {
+            "name": "pallet-gear - tests::unstoppable_block_execution_works",
+            "value": 61500000,
+            "unit": "ns",
+            "range": "± 18331666"
+          },
+          {
+            "name": "pallet-gear - tests::unused_gas_released_back_works",
+            "value": 75500000,
+            "unit": "ns",
+            "range": "± 27306592"
+          },
+          {
+            "name": "pallet-gear - tests::wake_messages_after_program_inited",
+            "value": 165600000,
+            "unit": "ns",
+            "range": "± 38668333"
+          },
+          {
+            "name": "pallet-gear-debug - mock::__construct_runtime_integrity_test::runtime_integrity_tests",
+            "value": 39600000,
+            "unit": "ns",
+            "range": "± 13417898"
+          },
+          {
+            "name": "pallet-gear-debug - tests::check_changed_pages_in_storage",
+            "value": 63700000,
+            "unit": "ns",
+            "range": "± 17994721"
+          },
+          {
+            "name": "pallet-gear-debug - tests::check_not_allocated_pages",
+            "value": 63300000,
+            "unit": "ns",
+            "range": "± 17555910"
+          },
+          {
+            "name": "pallet-gear-debug - tests::debug_mode_works",
+            "value": 68400000,
+            "unit": "ns",
+            "range": "± 16384138"
+          },
+          {
+            "name": "pallet-gear-gas - mock::__construct_runtime_integrity_test::runtime_integrity_tests",
+            "value": 47000000,
+            "unit": "ns",
+            "range": "± 25907527"
+          },
+          {
+            "name": "pallet-gear-gas - tests::all_keys_are_cleared",
+            "value": 70200000,
+            "unit": "ns",
+            "range": "± 26289922"
+          },
+          {
+            "name": "pallet-gear-gas - tests::can_cut_nodes",
+            "value": 55100000,
+            "unit": "ns",
+            "range": "± 22232633"
+          },
+          {
+            "name": "pallet-gear-gas - tests::gas_free_after_consumed",
+            "value": 61300000,
+            "unit": "ns",
+            "range": "± 19534840"
+          },
+          {
+            "name": "pallet-gear-gas - tests::limit_vs_origin",
+            "value": 55900000,
+            "unit": "ns",
+            "range": "± 21229460"
+          },
+          {
+            "name": "pallet-gear-gas - tests::long_chain",
+            "value": 59900000,
+            "unit": "ns",
+            "range": "± 22536414"
+          },
+          {
+            "name": "pallet-gear-gas - tests::simple_value_tree",
+            "value": 62500000,
+            "unit": "ns",
+            "range": "± 21148285"
+          },
+          {
+            "name": "pallet-gear-gas - tests::split_with_no_value",
+            "value": 64700000,
+            "unit": "ns",
+            "range": "± 22729056"
+          },
+          {
+            "name": "pallet-gear-gas - tests::splits_fail",
+            "value": 56900000,
+            "unit": "ns",
+            "range": "± 16385664"
+          },
+          {
+            "name": "pallet-gear-gas - tests::sub_nodes_tree",
+            "value": 68600000,
+            "unit": "ns",
+            "range": "± 26180909"
+          },
+          {
+            "name": "pallet-gear-gas - tests::sub_nodes_tree_with_spends",
+            "value": 54400000,
+            "unit": "ns",
+            "range": "± 19489484"
+          },
+          {
+            "name": "pallet-gear-gas - tests::subtree_gas_limit_remains_intact",
+            "value": 60000000,
+            "unit": "ns",
+            "range": "± 12806248"
+          },
+          {
+            "name": "pallet-gear-gas - tests::test_consume_procedure",
+            "value": 51100000,
+            "unit": "ns",
+            "range": "± 18732058"
+          },
+          {
+            "name": "pallet-gear-gas - tests::value_tree_known_errors",
+            "value": 47200000,
+            "unit": "ns",
+            "range": "± 8818163"
+          },
+          {
+            "name": "pallet-gear-gas - tests::value_tree_with_all_kinds_of_nodes",
+            "value": 50300000,
+            "unit": "ns",
+            "range": "± 17129214"
+          },
+          {
+            "name": "pallet-gear-messenger - mock::__construct_runtime_integrity_test::runtime_integrity_tests",
+            "value": 44100000,
+            "unit": "ns",
+            "range": "± 21741435"
+          },
+          {
+            "name": "pallet-gear-messenger - tests::dequeued_impl_works_manually",
+            "value": 45500000,
+            "unit": "ns",
+            "range": "± 12611502"
+          },
+          {
+            "name": "pallet-gear-messenger - tests::queue_processing_impl_works_manually",
+            "value": 48300000,
+            "unit": "ns",
+            "range": "± 18836400"
+          },
+          {
+            "name": "pallet-gear-messenger - tests::queue_works",
+            "value": 51200000,
+            "unit": "ns",
+            "range": "± 19197916"
+          },
+          {
+            "name": "pallet-gear-messenger - tests::sent_impl_works",
+            "value": 50000000,
+            "unit": "ns",
+            "range": "± 16492422"
+          },
+          {
+            "name": "pallet-gear-payment - mock::__construct_runtime_integrity_test::runtime_integrity_tests",
+            "value": 33100000,
+            "unit": "ns",
+            "range": "± 14487580"
+          },
+          {
+            "name": "pallet-gear-payment - tests::custom_fee_multiplier_updated_per_block",
+            "value": 52100000,
+            "unit": "ns",
+            "range": "± 14720394"
+          },
+          {
+            "name": "pallet-gear-payment - tests::fee_rounding_error_bounded_by_multiplier",
+            "value": 47000000,
+            "unit": "ns",
+            "range": "± 15440207"
+          },
+          {
+            "name": "pallet-gear-payment - tests::mq_size_affecting_fee_works",
+            "value": 47200000,
+            "unit": "ns",
+            "range": "± 18840382"
+          },
+          {
+            "name": "pallet-gear-payment - tests::mq_size_not_affecting_fee_works",
+            "value": 43600000,
+            "unit": "ns",
+            "range": "± 18499729"
+          },
+          {
+            "name": "pallet-gear-payment - tests::query_info_and_fee_details_work",
+            "value": 54400000,
+            "unit": "ns",
+            "range": "± 18521339"
+          },
+          {
+            "name": "pallet-gear-program - mock::__construct_runtime_integrity_test::runtime_integrity_tests",
+            "value": 36100000,
+            "unit": "ns",
+            "range": "± 18239791"
+          },
+          {
+            "name": "pallet-gear-program - tests::pause_program_twice_fails",
+            "value": 51100000,
+            "unit": "ns",
+            "range": "± 14390621"
+          },
+          {
+            "name": "pallet-gear-program - tests::pause_program_works",
+            "value": 58100000,
+            "unit": "ns",
+            "range": "± 13382451"
+          },
+          {
+            "name": "pallet-gear-program - tests::pause_terminated_program_fails",
+            "value": 44600000,
+            "unit": "ns",
+            "range": "± 14561593"
+          },
+          {
+            "name": "pallet-gear-program - tests::pause_uninitialized_program_works",
+            "value": 60000000,
+            "unit": "ns",
+            "range": "± 21255587"
+          },
+          {
+            "name": "pallet-gear-program - tests::resume_program_twice_fails",
+            "value": 76600000,
+            "unit": "ns",
+            "range": "± 14022838"
+          },
+          {
+            "name": "pallet-gear-program - tests::resume_program_wrong_list_fails",
+            "value": 62700000,
+            "unit": "ns",
+            "range": "± 15356106"
+          },
+          {
+            "name": "pallet-gear-program - tests::resume_program_wrong_memory_fails",
+            "value": 65100000,
+            "unit": "ns",
+            "range": "± 21106634"
+          },
+          {
+            "name": "pallet-gear-program - tests::resume_uninitialized_program_works",
+            "value": 66900000,
+            "unit": "ns",
+            "range": "± 18305463"
+          },
+          {
+            "name": "pallet-usage - mock::__construct_runtime_integrity_test::runtime_integrity_tests",
+            "value": 37500000,
+            "unit": "ns",
+            "range": "± 18693581"
+          },
+          {
+            "name": "pallet-usage - tests::dust_discarded_with_noop",
+            "value": 47800000,
+            "unit": "ns",
+            "range": "± 15714961"
+          },
+          {
+            "name": "pallet-usage - tests::external_submitter_gets_rewarded",
+            "value": 52500000,
+            "unit": "ns",
+            "range": "± 25640787"
+          },
+          {
+            "name": "pallet-usage - tests::gas_properly_handled_for_trap_replies",
+            "value": 47900000,
+            "unit": "ns",
+            "range": "± 21556669"
+          },
+          {
+            "name": "pallet-usage - tests::ocw_double_charge",
+            "value": 47800000,
+            "unit": "ns",
+            "range": "± 23142169"
+          },
+          {
+            "name": "pallet-usage - tests::ocw_interval_maintained",
+            "value": 38700000,
+            "unit": "ns",
+            "range": "± 24511425"
+          },
+          {
+            "name": "pallet-usage - tests::ocw_interval_stretches_for_large_wait_list",
+            "value": 49500000,
+            "unit": "ns",
+            "range": "± 10519030"
+          },
+          {
+            "name": "pallet-usage - tests::ocw_overlapping_prevented",
+            "value": 40900000,
+            "unit": "ns",
+            "range": "± 13003461"
+          },
+          {
+            "name": "pallet-usage - tests::rent_charge_works",
+            "value": 52500000,
+            "unit": "ns",
+            "range": "± 18034688"
+          },
+          {
+            "name": "pallet-usage - tests::trap_reply_message_is_sent",
+            "value": 45800000,
+            "unit": "ns",
+            "range": "± 15236797"
           }
         ]
       }
