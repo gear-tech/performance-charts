@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1658870008659,
+  "lastUpdate": 1658870010979,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -6413,6 +6413,188 @@ window.BENCHMARK_DATA = {
           {
             "name": "gas",
             "value": 2887,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "committer": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "id": "aeb206e7fc60f6366b44dbc7fe6d2644f981b63a",
+          "message": "Merge remote-tracking branch 'origin/master' into al-regular-perf-check\n\n# Conflicts:\n#\truntime/src/lib.rs\n#\tutils/regression-analysis/Cargo.toml",
+          "timestamp": "2022-07-26T15:15:54Z",
+          "url": "https://github.com/gear-tech/gear/commit/aeb206e7fc60f6366b44dbc7fe6d2644f981b63a"
+        },
+        "date": 1658870010280,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "alloc",
+            "value": 6195,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_gas_available",
+            "value": 2913,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_msg_id",
+            "value": 3597,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_origin",
+            "value": 3616,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_program_id",
+            "value": 3623,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_source",
+            "value": 3629,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_value",
+            "value": 3616,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_value_available",
+            "value": 3629,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_size",
+            "value": 2703,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_read",
+            "value": 3367,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_read_per_byte",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_block_height",
+            "value": 2717,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_block_timestamp",
+            "value": 2915,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_init",
+            "value": 4468,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_push",
+            "value": 5902,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_push_per_byte",
+            "value": 6,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_commit",
+            "value": 18446744073708130,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_commit_per_byte",
+            "value": 225,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_commit",
+            "value": 4132,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_commit_per_byte",
+            "value": 4,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_push",
+            "value": 3587,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_push_per_byte",
+            "value": 4,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_to",
+            "value": 1626,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_debug",
+            "value": 3351,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_exit_code",
+            "value": 1617,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_exit",
+            "value": 264535,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_leave",
+            "value": 183720,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wait",
+            "value": 183217,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wake",
+            "value": 4612,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_create_program_wgas",
+            "value": 276036,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_create_program_wgas_per_byte",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "gas",
+            "value": 2907,
             "unit": "ns"
           }
         ]
