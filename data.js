@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1658857818860,
+  "lastUpdate": 1658857821279,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -5707,6 +5707,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "i64rotr",
             "value": 0,
+            "unit": "ns"
+          }
+        ]
+      }
+    ],
+    "pallet-gear memory weights": [
+      {
+        "commit": {
+          "author": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "committer": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "id": "aeb206e7fc60f6366b44dbc7fe6d2644f981b63a",
+          "message": "Merge remote-tracking branch 'origin/master' into al-regular-perf-check\n\n# Conflicts:\n#\truntime/src/lib.rs\n#\tutils/regression-analysis/Cargo.toml",
+          "timestamp": "2022-07-26T15:15:54Z",
+          "url": "https://github.com/gear-tech/gear/commit/aeb206e7fc60f6366b44dbc7fe6d2644f981b63a"
+        },
+        "date": 1658857820669,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "initial_cost",
+            "value": 100000,
+            "unit": "ns"
+          },
+          {
+            "name": "allocation_cost",
+            "value": 100000,
+            "unit": "ns"
+          },
+          {
+            "name": "grow_cost",
+            "value": 100000,
+            "unit": "ns"
+          },
+          {
+            "name": "load_cost",
+            "value": 25000,
             "unit": "ns"
           }
         ]
