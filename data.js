@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660153592342,
+  "lastUpdate": 1660153598318,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -5789,6 +5789,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "i64rotr",
             "value": 96,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "committer": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "id": "b5ada31418ade851e28596b9880b22c5a216ebe9",
+          "message": "Don't fail on alert",
+          "timestamp": "2022-08-10T17:11:14Z",
+          "url": "https://github.com/gear-tech/gear/commit/b5ada31418ade851e28596b9880b22c5a216ebe9"
+        },
+        "date": 1660153597709,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "initial_cost",
+            "value": 100000,
+            "unit": "ns"
+          },
+          {
+            "name": "allocation_cost",
+            "value": 100000,
+            "unit": "ns"
+          },
+          {
+            "name": "grow_cost",
+            "value": 100000,
+            "unit": "ns"
+          },
+          {
+            "name": "load_cost",
+            "value": 25000,
             "unit": "ns"
           }
         ]
