@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662482872618,
+  "lastUpdate": 1662482878867,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -3087,6 +3087,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "i64rotr",
             "value": 148,
+            "unit": "ns"
+          }
+        ]
+      }
+    ],
+    "pallet-gear extrinsic weights": [
+      {
+        "commit": {
+          "author": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "committer": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "id": "afb9aae5977477782c2cc07678cd4f88f6fb91f7",
+          "message": "Generate extrinsics weights file",
+          "timestamp": "2022-09-06T14:31:34Z",
+          "url": "https://github.com/gear-tech/gear/commit/afb9aae5977477782c2cc07678cd4f88f6fb91f7"
+        },
+        "date": 1662482878140,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 72,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 77,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
             "unit": "ns"
           }
         ]
