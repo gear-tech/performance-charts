@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662507036192,
+  "lastUpdate": 1662507042491,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -4677,6 +4677,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_reply",
             "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "e471703ff661f2e998437ce60ec3bd9cc0c4cbbb",
+          "message": "Regular performance check (#1167)\n\nCo-authored-by: Dmitry Novikov <novikov.dm.al@gmail.com>\r\nCo-authored-by: kvs96 <kvs96@icloud.com>",
+          "timestamp": "2022-09-06T18:02:53Z",
+          "url": "https://github.com/gear-tech/gear/commit/e471703ff661f2e998437ce60ec3bd9cc0c4cbbb"
+        },
+        "date": 1662507041870,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 72,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 76,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
             "unit": "ns"
           },
           {
