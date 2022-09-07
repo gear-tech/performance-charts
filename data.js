@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662593527750,
+  "lastUpdate": 1662593534165,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -6270,6 +6270,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_reply",
             "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Georgy Shepelev",
+            "username": "gshep",
+            "email": "gshep@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "bc3daf67ba01e5c36d23758fe8c427ba02eb7b07",
+          "message": "Remove notifications with performance results (#1446)",
+          "timestamp": "2022-09-07T09:25:34Z",
+          "url": "https://github.com/gear-tech/gear/commit/bc3daf67ba01e5c36d23758fe8c427ba02eb7b07"
+        },
+        "date": 1662593533528,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 74,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 76,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
             "unit": "ns"
           },
           {
