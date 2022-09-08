@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662679939850,
+  "lastUpdate": 1662679946116,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -7848,6 +7848,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 76,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "3b34eaf3b686816f84563010e54b1405fa0be2ec",
+          "message": "Bump arbitrary from 1.1.4 to 1.1.5 (#1460)",
+          "timestamp": "2022-09-08T21:06:13Z",
+          "url": "https://github.com/gear-tech/gear/commit/3b34eaf3b686816f84563010e54b1405fa0be2ec"
+        },
+        "date": 1662679945472,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 72,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 75,
             "unit": "ns"
           },
           {
