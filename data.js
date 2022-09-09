@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662766258995,
+  "lastUpdate": 1662766265241,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -9441,6 +9441,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 75,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "bf334b0ddf3ce2ed03b16333603a99eefaf63e59",
+          "message": "Implement lazy pages comparison optimization for macOS (#1419)",
+          "timestamp": "2022-09-09T09:39:58Z",
+          "url": "https://github.com/gear-tech/gear/commit/bf334b0ddf3ce2ed03b16333603a99eefaf63e59"
+        },
+        "date": 1662766264576,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 70,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 76,
             "unit": "ns"
           },
           {
