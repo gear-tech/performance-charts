@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662852618744,
+  "lastUpdate": 1662852625260,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -11034,6 +11034,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 76,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Krinitsyn Vladislav",
+            "username": "kvs96",
+            "email": "kvs96@icloud.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "035b4183d11673b32ebc8e8041b5ef7e3a40f408",
+          "message": "add network selector for logs (#1459)",
+          "timestamp": "2022-09-10T11:46:55Z",
+          "url": "https://github.com/gear-tech/gear/commit/035b4183d11673b32ebc8e8041b5ef7e3a40f408"
+        },
+        "date": 1662852624614,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 71,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 74,
             "unit": "ns"
           },
           {
