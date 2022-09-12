@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663025727236,
+  "lastUpdate": 1663025733591,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -14220,6 +14220,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 76,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "7ff6375cf70e20cd77350d88618116b401ea13d0",
+          "message": "Bump quick-xml from 0.24.0 to 0.25.0 (#1470)",
+          "timestamp": "2022-09-12T19:02:33Z",
+          "url": "https://github.com/gear-tech/gear/commit/7ff6375cf70e20cd77350d88618116b401ea13d0"
+        },
+        "date": 1663025732903,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 72,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 79,
             "unit": "ns"
           },
           {
