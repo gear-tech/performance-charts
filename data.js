@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663285207902,
+  "lastUpdate": 1663285214146,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -17406,6 +17406,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 79,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "dba818dfe52cc15f3b75101fead577d6a6d4b93a",
+          "message": "Bump thiserror from 1.0.34 to 1.0.35 (#1489)",
+          "timestamp": "2022-09-15T18:44:25Z",
+          "url": "https://github.com/gear-tech/gear/commit/dba818dfe52cc15f3b75101fead577d6a6d4b93a"
+        },
+        "date": 1663285213367,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 79,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 82,
             "unit": "ns"
           },
           {
