@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663371578389,
+  "lastUpdate": 1663371584625,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -19005,6 +19005,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 82,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Gregory Sobol",
+            "username": "grishasobol",
+            "email": "grishasobol@mail.ru"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "5389fe8b7202aa18d4236a990258063dee983001",
+          "message": "make big signal alt stack to be able run lazy pages in debug mode (#1492)",
+          "timestamp": "2022-09-16T15:23:46Z",
+          "url": "https://github.com/gear-tech/gear/commit/5389fe8b7202aa18d4236a990258063dee983001"
+        },
+        "date": 1663371583912,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 79,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 81,
             "unit": "ns"
           },
           {
