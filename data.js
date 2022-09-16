@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663371558103,
+  "lastUpdate": 1663371564718,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -13012,6 +13012,346 @@ window.BENCHMARK_DATA = {
             "value": 11298,
             "unit": "ms",
             "range": "± 600"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Gregory Sobol",
+            "username": "grishasobol",
+            "email": "grishasobol@mail.ru"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "5389fe8b7202aa18d4236a990258063dee983001",
+          "message": "make big signal alt stack to be able run lazy pages in debug mode (#1492)",
+          "timestamp": "2022-09-16T15:23:46Z",
+          "url": "https://github.com/gear-tech/gear/commit/5389fe8b7202aa18d4236a990258063dee983001"
+        },
+        "date": 1663371564037,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Async RwLock - check readers",
+            "value": 39,
+            "unit": "ms",
+            "range": "± 41"
+          },
+          {
+            "name": "Async RwLock - forever lock",
+            "value": 66,
+            "unit": "ms",
+            "range": "± 64"
+          },
+          {
+            "name": "Async RwLock - read while writing",
+            "value": 110,
+            "unit": "ms",
+            "range": "± 50"
+          },
+          {
+            "name": "Async RwLock - rwlock wide",
+            "value": 220,
+            "unit": "ms",
+            "range": "± 94"
+          },
+          {
+            "name": "Async RwLock - write while reading",
+            "value": 124,
+            "unit": "ms",
+            "range": "± 53"
+          },
+          {
+            "name": "Async init - approved pong",
+            "value": 16529,
+            "unit": "ms",
+            "range": "± 614"
+          },
+          {
+            "name": "Async-await - async-await",
+            "value": 255,
+            "unit": "ms",
+            "range": "± 85"
+          },
+          {
+            "name": "Async-await - mutex",
+            "value": 250,
+            "unit": "ms",
+            "range": "± 82"
+          },
+          {
+            "name": "Async-await - rwlock-write",
+            "value": 230,
+            "unit": "ms",
+            "range": "± 95"
+          },
+          {
+            "name": "Async-duplicates-sync - async-duplicates-sync",
+            "value": 112,
+            "unit": "ms",
+            "range": "± 60"
+          },
+          {
+            "name": "Async-multisig (well known cases) - 2 of 3; bob & alice",
+            "value": 9368,
+            "unit": "ms",
+            "range": "± 614"
+          },
+          {
+            "name": "Async-multisig (well known cases) - 2 of 3; bob & eve",
+            "value": 9400,
+            "unit": "ms",
+            "range": "± 636"
+          },
+          {
+            "name": "Async-multisig (well known cases) - 2 of 3; eve & alice",
+            "value": 9354,
+            "unit": "ms",
+            "range": "± 590"
+          },
+          {
+            "name": "Async-multisig (well known cases) - 2 of 3; eve doesn't answer, alice replies with incorrect payload",
+            "value": 9283,
+            "unit": "ms",
+            "range": "± 596"
+          },
+          {
+            "name": "Async-multisig (well known cases) - 2 of 3; no replies",
+            "value": 9167,
+            "unit": "ms",
+            "range": "± 592"
+          },
+          {
+            "name": "Async-multisig (well known cases) - Single signatory & zero threshold",
+            "value": 9365,
+            "unit": "ms",
+            "range": "± 636"
+          },
+          {
+            "name": "Async-multisig (well known cases) - Three signatories & redundant threshold",
+            "value": 9429,
+            "unit": "ms",
+            "range": "± 594"
+          },
+          {
+            "name": "Async-multisig (well known cases) - Three signatories; Bob replies with incorrect signature",
+            "value": 9302,
+            "unit": "ms",
+            "range": "± 623"
+          },
+          {
+            "name": "Async-multisig (well known cases) - Three signatories; Eve doesn't answer, Alice replies with incorrect payload",
+            "value": 9306,
+            "unit": "ms",
+            "range": "± 607"
+          },
+          {
+            "name": "Async-sign (well known cases) - bad signature",
+            "value": 4994,
+            "unit": "ms",
+            "range": "± 375"
+          },
+          {
+            "name": "Async-sign (well known cases) - correct signature but for another message",
+            "value": 5086,
+            "unit": "ms",
+            "range": "± 323"
+          },
+          {
+            "name": "Async-sign (well known cases) - no reply",
+            "value": 4975,
+            "unit": "ms",
+            "range": "± 353"
+          },
+          {
+            "name": "Async-sign (well known cases) - signed message",
+            "value": 5091,
+            "unit": "ms",
+            "range": "± 325"
+          },
+          {
+            "name": "Asynchronous recursion - async-recursion",
+            "value": 552,
+            "unit": "ms",
+            "range": "± 104"
+          },
+          {
+            "name": "Basic capacitor check - Test charging/discharging",
+            "value": 77,
+            "unit": "ms",
+            "range": "± 31"
+          },
+          {
+            "name": "Chat - chat",
+            "value": 151,
+            "unit": "ms",
+            "range": "± 61"
+          },
+          {
+            "name": "Decoder - decoder",
+            "value": 38,
+            "unit": "ms",
+            "range": "± 26"
+          },
+          {
+            "name": "Exit code - normal",
+            "value": 59,
+            "unit": "ms",
+            "range": "± 45"
+          },
+          {
+            "name": "Exit code - panic",
+            "value": 38,
+            "unit": "ms",
+            "range": "± 23"
+          },
+          {
+            "name": "Futures-unordered - futures-unordered",
+            "value": 281,
+            "unit": "ms",
+            "range": "± 92"
+          },
+          {
+            "name": "Futures-unordered - join",
+            "value": 199,
+            "unit": "ms",
+            "range": "± 74"
+          },
+          {
+            "name": "Futures-unordered - select",
+            "value": 221,
+            "unit": "ms",
+            "range": "± 89"
+          },
+          {
+            "name": "Incomplete-async-payloads - incomplete-async-payloads",
+            "value": 222,
+            "unit": "ms",
+            "range": "± 96"
+          },
+          {
+            "name": "Memory test - Test for memory result",
+            "value": 66,
+            "unit": "ms",
+            "range": "± 25"
+          },
+          {
+            "name": "Messages to failed program are handled properly - handle messages to failed program",
+            "value": 66,
+            "unit": "ms",
+            "range": "± 41"
+          },
+          {
+            "name": "Meta ping (simple check) - meta check",
+            "value": 15556,
+            "unit": "ms",
+            "range": "± 634"
+          },
+          {
+            "name": "Multiping - multiping",
+            "value": 48,
+            "unit": "ms",
+            "range": "± 28"
+          },
+          {
+            "name": "Ping-pong - ping-pong",
+            "value": 33,
+            "unit": "ms",
+            "range": "± 28"
+          },
+          {
+            "name": "Ping-pong - ping-pong wgas",
+            "value": 37,
+            "unit": "ms",
+            "range": "± 20"
+          },
+          {
+            "name": "Program generator - program_generator",
+            "value": 49,
+            "unit": "ms",
+            "range": "± 24"
+          },
+          {
+            "name": "Program_id test - program_id",
+            "value": 39,
+            "unit": "ms",
+            "range": "± 31"
+          },
+          {
+            "name": "State-rollback - state-rollback",
+            "value": 42,
+            "unit": "ms",
+            "range": "± 27"
+          },
+          {
+            "name": "State-rollback - state-saving",
+            "value": 32,
+            "unit": "ms",
+            "range": "± 16"
+          },
+          {
+            "name": "Test create_program sys-call - Simple creation of program from program",
+            "value": 50,
+            "unit": "ms",
+            "range": "± 24"
+          },
+          {
+            "name": "Test create_program sys-call - Try to re-init existing program",
+            "value": 57,
+            "unit": "ms",
+            "range": "± 55"
+          },
+          {
+            "name": "Total time",
+            "value": 160999,
+            "unit": "ms",
+            "range": "± 9690"
+          },
+          {
+            "name": "Trap test - Test for trap result",
+            "value": 19,
+            "unit": "ms",
+            "range": "± 19"
+          },
+          {
+            "name": "Vector - test-vec (2 * 65536 * size_of(u8) = 128 KiB = 2 pages)",
+            "value": 235,
+            "unit": "ms",
+            "range": "± 100"
+          },
+          {
+            "name": "Wait test - wait",
+            "value": 52,
+            "unit": "ms",
+            "range": "± 32"
+          },
+          {
+            "name": "basic - fibonacci-sum",
+            "value": 99,
+            "unit": "ms",
+            "range": "± 68"
+          },
+          {
+            "name": "collector-1 - collector pass 2 messages",
+            "value": 76,
+            "unit": "ms",
+            "range": "± 37"
+          },
+          {
+            "name": "guestbook test - guestbook",
+            "value": 9126,
+            "unit": "ms",
+            "range": "± 586"
+          },
+          {
+            "name": "gui test - gui",
+            "value": 11397,
+            "unit": "ms",
+            "range": "± 603"
           }
         ]
       }
