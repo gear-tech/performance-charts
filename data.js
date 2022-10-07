@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665100814470,
+  "lastUpdate": 1665100821243,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -23820,6 +23820,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 81,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "clearloop",
+            "username": "clearloop",
+            "email": "26088946+clearloop@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "c893ced2a136f25cb9e28f84a723d8453da3507e",
+          "message": "feat(program): integrate gear-program into the main binary and clean up the tests (#1560)\n\nFor details of this PR, see https://github.com/gear-tech/gear/pull/1560",
+          "timestamp": "2022-10-05T23:19:03Z",
+          "url": "https://github.com/gear-tech/gear/commit/c893ced2a136f25cb9e28f84a723d8453da3507e"
+        },
+        "date": 1665100820215,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 76,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 42,
             "unit": "ns"
           },
           {
