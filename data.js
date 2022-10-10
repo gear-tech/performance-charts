@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665362110038,
+  "lastUpdate": 1665362116547,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -22887,6 +22887,168 @@ window.BENCHMARK_DATA = {
           {
             "name": "gas",
             "value": 130027,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ekovalev",
+            "username": "ekovalev",
+            "email": "ekovalev@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "6976f5e284866eca3a269c28a8448fdc1fe1c5cf",
+          "message": "Process queue as unsigned extrinsic at the end of a block (#1532)\n\n* Use custom block authorship to force-run message queue processing as an unchecked extrinsic.\r\n\r\n* Add test client and test runtime to verify block authoring consistency\r\n\r\n* Abstract away queue processing routing to be able to use custom runtime in tests",
+          "timestamp": "2022-10-09T19:56:06Z",
+          "url": "https://github.com/gear-tech/gear/commit/6976f5e284866eca3a269c28a8448fdc1fe1c5cf"
+        },
+        "date": 1665362115747,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "alloc",
+            "value": 170033,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_gas_available",
+            "value": 136959,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_msg_id",
+            "value": 162115,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_origin",
+            "value": 162163,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_program_id",
+            "value": 160515,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_source",
+            "value": 163063,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_value",
+            "value": 179155,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_value_available",
+            "value": 182282,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_size",
+            "value": 114044,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_read",
+            "value": 166602,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_block_height",
+            "value": 115258,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_block_timestamp",
+            "value": 139606,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_init",
+            "value": 191837,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_push",
+            "value": 367791,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_commit",
+            "value": 6530,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_commit",
+            "value": 251025,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_push",
+            "value": 166864,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_to",
+            "value": 170120,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_debug",
+            "value": 158253,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_exit_code",
+            "value": 114568,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_exit",
+            "value": 63621,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_leave",
+            "value": 37672,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wait",
+            "value": 39801,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wait_for",
+            "value": 134020,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wait_up_to",
+            "value": 119125,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wake",
+            "value": 19833,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_create_program_wgas",
+            "value": 46502,
+            "unit": "ns"
+          },
+          {
+            "name": "gas",
+            "value": 134528,
             "unit": "ns"
           }
         ]
