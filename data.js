@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665362123187,
+  "lastUpdate": 1665362129635,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -28671,6 +28671,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 44,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ekovalev",
+            "username": "ekovalev",
+            "email": "ekovalev@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "6976f5e284866eca3a269c28a8448fdc1fe1c5cf",
+          "message": "Process queue as unsigned extrinsic at the end of a block (#1532)\n\n* Use custom block authorship to force-run message queue processing as an unchecked extrinsic.\r\n\r\n* Add test client and test runtime to verify block authoring consistency\r\n\r\n* Abstract away queue processing routing to be able to use custom runtime in tests",
+          "timestamp": "2022-10-09T19:56:06Z",
+          "url": "https://github.com/gear-tech/gear/commit/6976f5e284866eca3a269c28a8448fdc1fe1c5cf"
+        },
+        "date": 1665362128813,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 79,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 41,
             "unit": "ns"
           },
           {
