@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665448598642,
+  "lastUpdate": 1665448605176,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -30288,6 +30288,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 41,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shamil",
+            "username": "shamilsan",
+            "email": "66209982+shamilsan@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "4abadd2bfb3dec777eaa50ccdd76cc567053f976",
+          "message": "Add pallets to docs and fix links (#1636)",
+          "timestamp": "2022-10-10T07:58:48Z",
+          "url": "https://github.com/gear-tech/gear/commit/4abadd2bfb3dec777eaa50ccdd76cc567053f976"
+        },
+        "date": 1665448604338,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 77,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 43,
             "unit": "ns"
           },
           {
