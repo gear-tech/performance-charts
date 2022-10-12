@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665534698318,
+  "lastUpdate": 1665534704904,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -31905,6 +31905,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 43,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dmitry Novikov",
+            "username": "breathx",
+            "email": "novikov.dm.al@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "2d7e606096cb9192406a83bf44f0907f19d9ec1a",
+          "message": "Refactor syscalls (#1621)",
+          "timestamp": "2022-10-11T23:24:50Z",
+          "url": "https://github.com/gear-tech/gear/commit/2d7e606096cb9192406a83bf44f0907f19d9ec1a"
+        },
+        "date": 1665534704075,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 79,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 44,
             "unit": "ns"
           },
           {
