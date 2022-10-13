@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665621319455,
+  "lastUpdate": 1665621325907,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -33522,6 +33522,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 44,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dmitry Novikov",
+            "username": "breathx",
+            "email": "novikov.dm.al@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "06271b3d82154ba728074ff1faeb34a681ad3aee",
+          "message": "Fix polkadot-js-cli call args in actions (#1655)\n\n* Fix arg\r\n\r\n* [skip ci]",
+          "timestamp": "2022-10-12T13:42:15Z",
+          "url": "https://github.com/gear-tech/gear/commit/06271b3d82154ba728074ff1faeb34a681ad3aee"
+        },
+        "date": 1665621325088,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 75,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 42,
             "unit": "ns"
           },
           {
