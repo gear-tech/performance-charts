@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665707634377,
+  "lastUpdate": 1665707641378,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -35139,6 +35139,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 42,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sergey filyanin",
+            "username": "sergeyfilyanin",
+            "email": "filianin.sergey@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "c7549b43fd9e787bff83ee444b4f73c21adda330",
+          "message": "Update CI.yaml (#1662)\n\nstop gear node before runtime test",
+          "timestamp": "2022-10-13T14:41:54Z",
+          "url": "https://github.com/gear-tech/gear/commit/c7549b43fd9e787bff83ee444b4f73c21adda330"
+        },
+        "date": 1665707640426,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 73,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 43,
             "unit": "ns"
           },
           {
