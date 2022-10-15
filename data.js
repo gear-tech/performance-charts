@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665793951564,
+  "lastUpdate": 1665793958463,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -36756,6 +36756,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 43,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "dcfd06e2ffab60516d8442a0e939003659b59cb3",
+          "message": "Bump libp2p from 0.48.0 to 0.49.0 (#1666)",
+          "timestamp": "2022-10-14T19:37:46Z",
+          "url": "https://github.com/gear-tech/gear/commit/dcfd06e2ffab60516d8442a0e939003659b59cb3"
+        },
+        "date": 1665793957499,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 75,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 40,
             "unit": "ns"
           },
           {
