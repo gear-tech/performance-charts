@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665880377720,
+  "lastUpdate": 1665880384394,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -38368,6 +38368,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_code",
             "value": 75,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 40,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ekovalev",
+            "username": "ekovalev",
+            "email": "ekovalev@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "e80f63728c8fdc9928f27ca59aac5010b959b280",
+          "message": "Remove redundant feature (#1665)\n\n* Remove superfluous 'cli' feature",
+          "timestamp": "2022-10-15T08:37:29Z",
+          "url": "https://github.com/gear-tech/gear/commit/e80f63728c8fdc9928f27ca59aac5010b959b280"
+        },
+        "date": 1665880383455,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 76,
             "unit": "ns"
           },
           {
