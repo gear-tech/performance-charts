@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666053314456,
+  "lastUpdate": 1666053322212,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -40005,6 +40005,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_reply",
             "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sergey filyanin",
+            "username": "sergeyfilyanin",
+            "email": "filianin.sergey@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "0ec78d1dfa8903ce25e2a3794c1a6af6a1487c45",
+          "message": "Sf check (#1679)\n\n* Update gear-loader.yaml\r\n\r\n* Update CD-gear-loader-network.yml\r\n\r\n* Update gear-loader.yaml\r\n\r\n* Update gear-loader.yaml\r\n\r\n* Update gear-loader.yaml\r\n\r\n* Update gear-loader.yaml\r\n\r\n* Update gear-loader.yaml\r\n\r\n* Update gear-loader.yaml\r\n\r\n* Update gear-loader.yaml\r\n\r\n* Update CD-gear-loader-network.yml",
+          "timestamp": "2022-10-17T14:07:02Z",
+          "url": "https://github.com/gear-tech/gear/commit/0ec78d1dfa8903ce25e2a3794c1a6af6a1487c45"
+        },
+        "date": 1666053320648,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 75,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 42,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 3,
             "unit": "ns"
           },
           {
