@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666139846323,
+  "lastUpdate": 1666139852932,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -41622,6 +41622,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_reply",
             "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "e87ab9e4d2709ce497acf186288b4e689fa587a2",
+          "message": "Charge for WASM instantiation (#1631)",
+          "timestamp": "2022-10-18T10:30:55Z",
+          "url": "https://github.com/gear-tech/gear/commit/e87ab9e4d2709ce497acf186288b4e689fa587a2"
+        },
+        "date": 1666139852034,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 73,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 39,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
             "unit": "ns"
           },
           {
