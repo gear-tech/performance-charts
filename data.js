@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666226115104,
+  "lastUpdate": 1666226121674,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -43230,6 +43230,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 39,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Vadim Smirnov",
+            "username": "ukint-vs",
+            "email": "vs@gear-tech.io"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "fa8ea7282903768e9cd3261e0f4b6229137e2592",
+          "message": "`node/cli`: default `lazy-pages` feature (#1690)",
+          "timestamp": "2022-10-19T12:06:01Z",
+          "url": "https://github.com/gear-tech/gear/commit/fa8ea7282903768e9cd3261e0f4b6229137e2592"
+        },
+        "date": 1666226120803,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 74,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 40,
             "unit": "ns"
           },
           {
