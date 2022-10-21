@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666313040215,
+  "lastUpdate": 1666313046956,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -44869,6 +44869,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 40,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dmitry Novikov",
+            "username": "breathx",
+            "email": "novikov.dm.al@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "0c3ea9e8e97ccbb6f8c0488a888ecfb266a2b4f8",
+          "message": "Custom block number for queue processing (#1673)",
+          "timestamp": "2022-10-20T21:09:35Z",
+          "url": "https://github.com/gear-tech/gear/commit/0c3ea9e8e97ccbb6f8c0488a888ecfb266a2b4f8"
+        },
+        "date": 1666313045994,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 94,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 61,
             "unit": "ns"
           },
           {
