@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666399655519,
+  "lastUpdate": 1666399662180,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -46503,6 +46503,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_code",
             "value": 94,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 61,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dmitry Novikov",
+            "username": "breathx",
+            "email": "novikov.dm.al@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "bec4fd75353b12c20eb301518c5396ecfdadec3d",
+          "message": "Patch substrate deps for `subxt` (#1702)",
+          "timestamp": "2022-10-21T15:47:53Z",
+          "url": "https://github.com/gear-tech/gear/commit/bec4fd75353b12c20eb301518c5396ecfdadec3d"
+        },
+        "date": 1666399661249,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 95,
             "unit": "ns"
           },
           {
