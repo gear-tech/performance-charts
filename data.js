@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666658737720,
+  "lastUpdate": 1666658744626,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -51425,6 +51425,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 65,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Sabaun Taraki",
+            "username": "SabaunT",
+            "email": "taraki.sabaun.rl@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "8188debffff80787fcd00835bed3fc2d0b8200d0",
+          "message": "Test `core-backend/common` crate (#1711)",
+          "timestamp": "2022-10-24T21:52:07Z",
+          "url": "https://github.com/gear-tech/gear/commit/8188debffff80787fcd00835bed3fc2d0b8200d0"
+        },
+        "date": 1666658743631,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 96,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 64,
             "unit": "ns"
           },
           {
