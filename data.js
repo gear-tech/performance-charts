@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666745236766,
+  "lastUpdate": 1666745243754,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -53059,6 +53059,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 64,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dmitry Novikov",
+            "username": "breathx",
+            "email": "novikov.dm.al@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "d4552434b470dad1ade7db3a929eb1aa6204c9ca",
+          "message": "Set proper gas to value conversion (#1705)",
+          "timestamp": "2022-10-25T12:16:05Z",
+          "url": "https://github.com/gear-tech/gear/commit/d4552434b470dad1ade7db3a929eb1aa6204c9ca"
+        },
+        "date": 1666745242821,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 93,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 61,
             "unit": "ns"
           },
           {
