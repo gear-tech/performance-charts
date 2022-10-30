@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667090687419,
+  "lastUpdate": 1667090694178,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -56322,6 +56322,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_code",
             "value": 98,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 63,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dmitry Novikov",
+            "username": "breathx",
+            "email": "novikov.dm.al@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "e44733308366a0d20f316a3fc9bb80289e7f8efa",
+          "message": "Db accesses per byte costs (#1716)",
+          "timestamp": "2022-10-28T19:40:41Z",
+          "url": "https://github.com/gear-tech/gear/commit/e44733308366a0d20f316a3fc9bb80289e7f8efa"
+        },
+        "date": 1667090693243,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 95,
             "unit": "ns"
           },
           {
