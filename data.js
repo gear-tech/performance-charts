@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667178275009,
+  "lastUpdate": 1667178282340,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -57976,6 +57976,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_message",
             "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "6dc8d24edd94bf992f45723d431fe9075d6c005b",
+          "message": "Bump libfuzzer-sys from 0.4.4 to 0.4.5 (#1734)",
+          "timestamp": "2022-10-30T18:31:27Z",
+          "url": "https://github.com/gear-tech/gear/commit/6dc8d24edd94bf992f45723d431fe9075d6c005b"
+        },
+        "date": 1667178281016,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 97,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 64,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
             "unit": "ns"
           },
           {
