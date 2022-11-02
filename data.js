@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667351123961,
+  "lastUpdate": 1667351131364,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -61276,6 +61276,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_message",
             "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Sabaun Taraki",
+            "username": "SabaunT",
+            "email": "taraki.sabaun.rl@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "6e5daee14375fa5c513456c7710e610bbb3806dd",
+          "message": "`gear-node-loader` clean-up (#1600)",
+          "timestamp": "2022-10-31T16:18:15Z",
+          "url": "https://github.com/gear-tech/gear/commit/6e5daee14375fa5c513456c7710e610bbb3806dd"
+        },
+        "date": 1667351130005,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 96,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 61,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
             "unit": "ns"
           },
           {
