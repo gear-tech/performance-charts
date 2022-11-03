@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667438056499,
+  "lastUpdate": 1667438064002,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -62931,6 +62931,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_reply",
             "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Papadritta",
+            "username": "papadritta",
+            "email": "90826754+papadritta@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "ccad25598073bd5a33cdf2c6f1ed402cc020c0a3",
+          "message": "[skip ci] Update README (add  Protocol Buffer Compiler) (#1738)",
+          "timestamp": "2022-11-02T21:57:04Z",
+          "url": "https://github.com/gear-tech/gear/commit/ccad25598073bd5a33cdf2c6f1ed402cc020c0a3"
+        },
+        "date": 1667438062703,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 93,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 62,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
             "unit": "ns"
           },
           {
