@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667870267553,
+  "lastUpdate": 1667870274701,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -71166,6 +71166,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 60,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "6fac07e1cbb5f574642ed6cba9e70d897ce2bced",
+          "message": "Bump regex from 1.6.0 to 1.7.0 (#1753)",
+          "timestamp": "2022-11-06T21:53:23Z",
+          "url": "https://github.com/gear-tech/gear/commit/6fac07e1cbb5f574642ed6cba9e70d897ce2bced"
+        },
+        "date": 1667870273492,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 90,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 53,
             "unit": "ns"
           },
           {
