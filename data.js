@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668042218417,
+  "lastUpdate": 1668042225943,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -74526,6 +74526,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 63,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Gregory Sobol",
+            "username": "grishasobol",
+            "email": "grishasobol@mail.ru"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "842e244aeda1aa697fee76774876f7086ecf7e99",
+          "message": "instructions benches (#1762)",
+          "timestamp": "2022-11-09T21:22:23Z",
+          "url": "https://github.com/gear-tech/gear/commit/842e244aeda1aa697fee76774876f7086ecf7e99"
+        },
+        "date": 1668042224659,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 91,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 61,
             "unit": "ns"
           },
           {
