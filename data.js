@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668130812904,
+  "lastUpdate": 1668130820115,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -76201,6 +76201,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 61,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Gregory Sobol",
+            "username": "grishasobol",
+            "email": "grishasobol@mail.ru"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "872229413f1cad726b02a94b9e316d1399d319c8",
+          "message": "fix gclient zero_alloc test timeout (#1812)",
+          "timestamp": "2022-11-10T22:14:31Z",
+          "url": "https://github.com/gear-tech/gear/commit/872229413f1cad726b02a94b9e316d1399d319c8"
+        },
+        "date": 1668130818830,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 93,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 65,
             "unit": "ns"
           },
           {
