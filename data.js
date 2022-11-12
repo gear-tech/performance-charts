@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668216676346,
+  "lastUpdate": 1668216683707,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -77876,6 +77876,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 65,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "168e3f069203e636ef6f282df8fcd45678ccfdb9",
+          "message": "Bump wasmprinter from 0.2.42 to 0.2.43 (#1811)",
+          "timestamp": "2022-11-11T21:48:46Z",
+          "url": "https://github.com/gear-tech/gear/commit/168e3f069203e636ef6f282df8fcd45678ccfdb9"
+        },
+        "date": 1668216682304,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 95,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 63,
             "unit": "ns"
           },
           {
