@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668303864566,
+  "lastUpdate": 1668303871966,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -79573,6 +79573,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 63,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "b9fc2b855531346fb17b693c22369f1ec8d37ea9",
+          "message": "Send messages from reservation (#1824)",
+          "timestamp": "2022-11-12T15:58:20Z",
+          "url": "https://github.com/gear-tech/gear/commit/b9fc2b855531346fb17b693c22369f1ec8d37ea9"
+        },
+        "date": 1668303870622,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 95,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 64,
             "unit": "ns"
           },
           {
