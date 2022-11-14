@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668390388954,
+  "lastUpdate": 1668390396418,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -81285,6 +81285,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_reply",
             "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dmitry Novikov",
+            "username": "breathx",
+            "email": "novikov.dm.al@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "b34dbbf99ad4cfed7cafd2c4a9de10cd44ccbfa4",
+          "message": "Fix funds locking and charging artefacts for reservations (#1834)",
+          "timestamp": "2022-11-14T00:34:15Z",
+          "url": "https://github.com/gear-tech/gear/commit/b34dbbf99ad4cfed7cafd2c4a9de10cd44ccbfa4"
+        },
+        "date": 1668390394853,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 95,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 64,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
             "unit": "ns"
           },
           {
