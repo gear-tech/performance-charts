@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668390374107,
+  "lastUpdate": 1668390381324,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -65273,6 +65273,193 @@ window.BENCHMARK_DATA = {
           {
             "name": "gr_unreserve_gas",
             "value": 622917,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dmitry Novikov",
+            "username": "breathx",
+            "email": "novikov.dm.al@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "b34dbbf99ad4cfed7cafd2c4a9de10cd44ccbfa4",
+          "message": "Fix funds locking and charging artefacts for reservations (#1834)",
+          "timestamp": "2022-11-14T00:34:15Z",
+          "url": "https://github.com/gear-tech/gear/commit/b34dbbf99ad4cfed7cafd2c4a9de10cd44ccbfa4"
+        },
+        "date": 1668390379975,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "alloc",
+            "value": 433999,
+            "unit": "ns"
+          },
+          {
+            "name": "free",
+            "value": 408410,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_gas_available",
+            "value": 869834,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_message_id",
+            "value": 975859,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_origin",
+            "value": 949193,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_program_id",
+            "value": 762235,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_source",
+            "value": 842625,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_value",
+            "value": 960115,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_value_available",
+            "value": 965780,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_size",
+            "value": 854732,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_read",
+            "value": 434673,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_block_height",
+            "value": 372510,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_block_timestamp",
+            "value": 390374,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_random",
+            "value": 578137,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_init",
+            "value": 454758,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_push",
+            "value": 923875,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_commit",
+            "value": 636346,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reservation_send_commit",
+            "value": 709755,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_commit",
+            "value": 454963,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reservation_reply_commit",
+            "value": 547439,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_push",
+            "value": 469335,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_to",
+            "value": 436542,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_debug",
+            "value": 454807,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_exit_code",
+            "value": 433456,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_exit",
+            "value": 143414,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_leave",
+            "value": 61332,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wait",
+            "value": 90467,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wait_for",
+            "value": 91285,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wait_up_to",
+            "value": 50388,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wake",
+            "value": 505378,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_create_program_wgas",
+            "value": 765079,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reserve_gas",
+            "value": 732762,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_unreserve_gas",
+            "value": 1113939,
             "unit": "ns"
           }
         ]
