@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668476868864,
+  "lastUpdate": 1668476876316,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -66656,6 +66656,193 @@ window.BENCHMARK_DATA = {
           {
             "name": "gr_unreserve_gas",
             "value": 1113939,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Gregory Sobol",
+            "username": "grishasobol",
+            "email": "grishasobol@mail.ru"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "0403827403cf0c7164a3dfc95e64e304dd0c7096",
+          "message": "tune load and store weights (#1814)",
+          "timestamp": "2022-11-14T18:46:24Z",
+          "url": "https://github.com/gear-tech/gear/commit/0403827403cf0c7164a3dfc95e64e304dd0c7096"
+        },
+        "date": 1668476874782,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "alloc",
+            "value": 443793,
+            "unit": "ns"
+          },
+          {
+            "name": "free",
+            "value": 420120,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_gas_available",
+            "value": 397420,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_message_id",
+            "value": 422301,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_origin",
+            "value": 420828,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_program_id",
+            "value": 422963,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_source",
+            "value": 421795,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_value",
+            "value": 430799,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_value_available",
+            "value": 426757,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_size",
+            "value": 381547,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_read",
+            "value": 412156,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_block_height",
+            "value": 374104,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_block_timestamp",
+            "value": 394493,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_random",
+            "value": 584749,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_init",
+            "value": 451221,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_push",
+            "value": 930700,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_send_commit",
+            "value": 643619,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reservation_send_commit",
+            "value": 713907,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_commit",
+            "value": 477124,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reservation_reply_commit",
+            "value": 544174,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_push",
+            "value": 471679,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reply_to",
+            "value": 440090,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_debug",
+            "value": 453186,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_exit_code",
+            "value": 431786,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_exit",
+            "value": 89456,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_leave",
+            "value": 87754,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wait",
+            "value": 84789,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wait_for",
+            "value": 102605,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wait_up_to",
+            "value": 83035,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_wake",
+            "value": 506142,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_create_program_wgas",
+            "value": 777687,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_reserve_gas",
+            "value": 734639,
+            "unit": "ns"
+          },
+          {
+            "name": "gr_unreserve_gas",
+            "value": 600332,
             "unit": "ns"
           }
         ]
