@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668476884206,
+  "lastUpdate": 1668476891812,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -82982,6 +82982,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_reply",
             "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Gregory Sobol",
+            "username": "grishasobol",
+            "email": "grishasobol@mail.ru"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "0403827403cf0c7164a3dfc95e64e304dd0c7096",
+          "message": "tune load and store weights (#1814)",
+          "timestamp": "2022-11-14T18:46:24Z",
+          "url": "https://github.com/gear-tech/gear/commit/0403827403cf0c7164a3dfc95e64e304dd0c7096"
+        },
+        "date": 1668476890297,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 95,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 63,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
             "unit": "ns"
           },
           {
