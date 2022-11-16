@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668563133245,
+  "lastUpdate": 1668563141026,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -84744,6 +84744,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_reply",
             "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shamil",
+            "username": "shamilsan",
+            "email": "66209982+shamilsan@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "0e36e916e12cf50abc961fc7fb550801a0d66ad5",
+          "message": "Rename `gear-node` base dir to `gear` instead of changing base path (#1840)",
+          "timestamp": "2022-11-15T18:59:23Z",
+          "url": "https://github.com/gear-tech/gear/commit/0e36e916e12cf50abc961fc7fb550801a0d66ad5"
+        },
+        "date": 1668563139447,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 94,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 65,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
             "unit": "ns"
           },
           {
