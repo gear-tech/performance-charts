@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668649507537,
+  "lastUpdate": 1668649515305,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -86506,6 +86506,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_reply",
             "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "cca89cce0db6262f0b6f5e9dbcc864123ef6ab54",
+          "message": "Bump reqwest from 0.11.12 to 0.11.13 (#1851)",
+          "timestamp": "2022-11-16T18:55:43Z",
+          "url": "https://github.com/gear-tech/gear/commit/cca89cce0db6262f0b6f5e9dbcc864123ef6ab54"
+        },
+        "date": 1668649513555,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 95,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 62,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
             "unit": "ns"
           },
           {
