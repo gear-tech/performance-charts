@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668823007713,
+  "lastUpdate": 1668823015114,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -90015,6 +90015,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 67,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "2756ad784c4640db7e804206ddc2d9e32210b9a2",
+          "message": "Bump serde_json from 1.0.87 to 1.0.88 (#1862)",
+          "timestamp": "2022-11-18T23:02:51Z",
+          "url": "https://github.com/gear-tech/gear/commit/2756ad784c4640db7e804206ddc2d9e32210b9a2"
+        },
+        "date": 1668823013684,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 96,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 63,
             "unit": "ns"
           },
           {
