@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668909059216,
+  "lastUpdate": 1668909066709,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -91792,6 +91792,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_reply",
             "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sergey filyanin",
+            "username": "sergeyfilyanin",
+            "email": "filianin.sergey@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "3ecef508e215e89ad63d274a67fc529cac897cd4",
+          "message": "Update docker-compose.yaml.j2 (#1870)",
+          "timestamp": "2022-11-19T12:02:11Z",
+          "url": "https://github.com/gear-tech/gear/commit/3ecef508e215e89ad63d274a67fc529cac897cd4"
+        },
+        "date": 1668909065113,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 95,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 63,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
             "unit": "ns"
           },
           {
