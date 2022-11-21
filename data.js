@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668995201016,
+  "lastUpdate": 1668995208672,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -93539,6 +93539,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 63,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sergey filyanin",
+            "username": "sergeyfilyanin",
+            "email": "filianin.sergey@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "8bba95a3c04803ff6ef5588e4b7e6d6c670954a4",
+          "message": "Update CD.yml (#1872)",
+          "timestamp": "2022-11-20T18:57:15Z",
+          "url": "https://github.com/gear-tech/gear/commit/8bba95a3c04803ff6ef5588e4b7e6d6c670954a4"
+        },
+        "date": 1668995207138,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 97,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 64,
             "unit": "ns"
           },
           {
