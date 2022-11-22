@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669081562999,
+  "lastUpdate": 1669081571009,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -95296,6 +95296,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_code",
             "value": 97,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 64,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "4348cf42623850af32aa64cbc464f4c9bef943d8",
+          "message": "Bump cargo_metadata from 0.15.1 to 0.15.2 (#1879)",
+          "timestamp": "2022-11-21T19:26:23Z",
+          "url": "https://github.com/gear-tech/gear/commit/4348cf42623850af32aa64cbc464f4c9bef943d8"
+        },
+        "date": 1669081569450,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 93,
             "unit": "ns"
           },
           {
