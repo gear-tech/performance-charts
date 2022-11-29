@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669685985643,
+  "lastUpdate": 1669685993770,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -105883,6 +105883,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_message",
             "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Sabaun Taraki",
+            "username": "SabaunT",
+            "email": "taraki.sabaun.rl@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "38b6714e1b71bc4ac1dfbf9e43cf9c8ba4c7cec6",
+          "message": "Alert on tx wait finalized timeout (#1908)",
+          "timestamp": "2022-11-28T18:53:49Z",
+          "url": "https://github.com/gear-tech/gear/commit/38b6714e1b71bc4ac1dfbf9e43cf9c8ba4c7cec6"
+        },
+        "date": 1669685991948,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 95322,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 71361,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
             "unit": "ns"
           },
           {
