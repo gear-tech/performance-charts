@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669859224050,
+  "lastUpdate": 1669859231632,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -109397,6 +109397,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 67546,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "clearloop",
+            "username": "clearloop",
+            "email": "26088946+clearloop@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "f6da9673dffcaeaebc7ae3072aa6cdde9c6e0886",
+          "message": "feat(gear): introduce benchmarks for `gr_error` (#1841)",
+          "timestamp": "2022-11-30T22:28:46Z",
+          "url": "https://github.com/gear-tech/gear/commit/f6da9673dffcaeaebc7ae3072aa6cdde9c6e0886"
+        },
+        "date": 1669859230416,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 96820,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 66211,
             "unit": "ns"
           },
           {
