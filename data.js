@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670378448186,
+  "lastUpdate": 1670378456418,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -113062,6 +113062,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_message",
             "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "e5b6826ce0f4200d2e66b277614ab4f3ef6c85a3",
+          "message": "Forbid some sys-calls in handle_signal (#1848)",
+          "timestamp": "2022-12-06T21:04:56Z",
+          "url": "https://github.com/gear-tech/gear/commit/e5b6826ce0f4200d2e66b277614ab4f3ef6c85a3"
+        },
+        "date": 1670378454418,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 95711,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 69683,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
             "unit": "ns"
           },
           {
