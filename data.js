@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670551606720,
+  "lastUpdate": 1670551615507,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -114957,6 +114957,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_reply",
             "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sergey filyanin",
+            "username": "sergeyfilyanin",
+            "email": "filianin.sergey@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "0eb54228a22a9c8670ad7a4ec05647ecc7b4c7f9",
+          "message": "Update main.yaml (#1970)",
+          "timestamp": "2022-12-08T21:18:05Z",
+          "url": "https://github.com/gear-tech/gear/commit/0eb54228a22a9c8670ad7a4ec05647ecc7b4c7f9"
+        },
+        "date": 1670551613494,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 99045,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 66666,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
             "unit": "ns"
           },
           {
