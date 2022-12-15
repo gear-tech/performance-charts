@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671069819567,
+  "lastUpdate": 1671069828307,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -124402,6 +124402,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "send_message",
             "value": 2,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "501684f18d0b17730dd6bb9c4b1d18d49c76fe1a",
+          "message": "Bump toml from 0.5.9 to 0.5.10 (#1980)",
+          "timestamp": "2022-12-14T20:15:59Z",
+          "url": "https://github.com/gear-tech/gear/commit/501684f18d0b17730dd6bb9c4b1d18d49c76fe1a"
+        },
+        "date": 1671069826001,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 100086,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 68878,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
             "unit": "ns"
           },
           {
