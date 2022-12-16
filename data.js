@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671155981209,
+  "lastUpdate": 1671155989273,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -126282,6 +126282,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 68878,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "clearloop",
+            "username": "clearloop",
+            "email": "26088946+clearloop@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "d3a6d06cdc7ff8d16c13fd6e725c418bbe8bff93",
+          "message": "chore(clippy): remove `-A clippy::uninlined-format-args` in scripts (#1984)",
+          "timestamp": "2022-12-15T14:09:46Z",
+          "url": "https://github.com/gear-tech/gear/commit/d3a6d06cdc7ff8d16c13fd6e725c418bbe8bff93"
+        },
+        "date": 1671155987468,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 98116,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 70568,
             "unit": "ns"
           },
           {
