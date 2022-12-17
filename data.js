@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671242367583,
+  "lastUpdate": 1671242376165,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -124104,6 +124104,268 @@ window.BENCHMARK_DATA = {
           {
             "name": "i64rotr",
             "value": 2610,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Georgy Shepelev",
+            "username": "gshep",
+            "email": "gshep@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "f6e258b9ef3e26dea4502ae0bc7d6751921def42",
+          "message": "Precharge message for gas & allowance for reinstrumentation (#1959)",
+          "timestamp": "2022-12-16T12:16:49Z",
+          "url": "https://github.com/gear-tech/gear/commit/f6e258b9ef3e26dea4502ae0bc7d6751921def42"
+        },
+        "date": 1671242373913,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "i64load",
+            "value": 46396,
+            "unit": "ns"
+          },
+          {
+            "name": "i64store",
+            "value": 27772,
+            "unit": "ns"
+          },
+          {
+            "name": "select",
+            "value": 10156,
+            "unit": "ns"
+          },
+          {
+            "name": "br",
+            "value": 4228,
+            "unit": "ns"
+          },
+          {
+            "name": "br_if",
+            "value": 7406,
+            "unit": "ns"
+          },
+          {
+            "name": "br_table",
+            "value": 13843,
+            "unit": "ns"
+          },
+          {
+            "name": "br_table_per_entry",
+            "value": 484,
+            "unit": "ns"
+          },
+          {
+            "name": "call",
+            "value": 7016,
+            "unit": "ns"
+          },
+          {
+            "name": "call_indirect",
+            "value": 25064,
+            "unit": "ns"
+          },
+          {
+            "name": "call_indirect_per_param",
+            "value": 3339,
+            "unit": "ns"
+          },
+          {
+            "name": "local_get",
+            "value": 544,
+            "unit": "ns"
+          },
+          {
+            "name": "local_set",
+            "value": 995,
+            "unit": "ns"
+          },
+          {
+            "name": "local_tee",
+            "value": 1214,
+            "unit": "ns"
+          },
+          {
+            "name": "global_get",
+            "value": 1135,
+            "unit": "ns"
+          },
+          {
+            "name": "global_set",
+            "value": 3434,
+            "unit": "ns"
+          },
+          {
+            "name": "memory_current",
+            "value": 20851,
+            "unit": "ns"
+          },
+          {
+            "name": "i64clz",
+            "value": 9322,
+            "unit": "ns"
+          },
+          {
+            "name": "i64ctz",
+            "value": 8635,
+            "unit": "ns"
+          },
+          {
+            "name": "i64popcnt",
+            "value": 1119,
+            "unit": "ns"
+          },
+          {
+            "name": "i64eqz",
+            "value": 5541,
+            "unit": "ns"
+          },
+          {
+            "name": "i64extendsi32",
+            "value": 721,
+            "unit": "ns"
+          },
+          {
+            "name": "i64extendui32",
+            "value": 470,
+            "unit": "ns"
+          },
+          {
+            "name": "i32wrapi64",
+            "value": 402,
+            "unit": "ns"
+          },
+          {
+            "name": "i64eq",
+            "value": 5426,
+            "unit": "ns"
+          },
+          {
+            "name": "i64ne",
+            "value": 5393,
+            "unit": "ns"
+          },
+          {
+            "name": "i64lts",
+            "value": 5394,
+            "unit": "ns"
+          },
+          {
+            "name": "i64ltu",
+            "value": 5453,
+            "unit": "ns"
+          },
+          {
+            "name": "i64gts",
+            "value": 5499,
+            "unit": "ns"
+          },
+          {
+            "name": "i64gtu",
+            "value": 5374,
+            "unit": "ns"
+          },
+          {
+            "name": "i64les",
+            "value": 5444,
+            "unit": "ns"
+          },
+          {
+            "name": "i64leu",
+            "value": 5356,
+            "unit": "ns"
+          },
+          {
+            "name": "i64ges",
+            "value": 5377,
+            "unit": "ns"
+          },
+          {
+            "name": "i64geu",
+            "value": 5465,
+            "unit": "ns"
+          },
+          {
+            "name": "i64add",
+            "value": 3367,
+            "unit": "ns"
+          },
+          {
+            "name": "i64sub",
+            "value": 3490,
+            "unit": "ns"
+          },
+          {
+            "name": "i64mul",
+            "value": 5081,
+            "unit": "ns"
+          },
+          {
+            "name": "i64divs",
+            "value": 10082,
+            "unit": "ns"
+          },
+          {
+            "name": "i64divu",
+            "value": 8920,
+            "unit": "ns"
+          },
+          {
+            "name": "i64rems",
+            "value": 24673,
+            "unit": "ns"
+          },
+          {
+            "name": "i64remu",
+            "value": 8665,
+            "unit": "ns"
+          },
+          {
+            "name": "i64and",
+            "value": 3410,
+            "unit": "ns"
+          },
+          {
+            "name": "i64or",
+            "value": 3559,
+            "unit": "ns"
+          },
+          {
+            "name": "i64xor",
+            "value": 3389,
+            "unit": "ns"
+          },
+          {
+            "name": "i64shl",
+            "value": 2439,
+            "unit": "ns"
+          },
+          {
+            "name": "i64shrs",
+            "value": 2526,
+            "unit": "ns"
+          },
+          {
+            "name": "i64shru",
+            "value": 2621,
+            "unit": "ns"
+          },
+          {
+            "name": "i64rotl",
+            "value": 2646,
+            "unit": "ns"
+          },
+          {
+            "name": "i64rotr",
+            "value": 2628,
             "unit": "ns"
           }
         ]
