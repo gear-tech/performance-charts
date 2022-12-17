@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671242376165,
+  "lastUpdate": 1671242384408,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -128196,6 +128196,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 70568,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Georgy Shepelev",
+            "username": "gshep",
+            "email": "gshep@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "f6e258b9ef3e26dea4502ae0bc7d6751921def42",
+          "message": "Precharge message for gas & allowance for reinstrumentation (#1959)",
+          "timestamp": "2022-12-16T12:16:49Z",
+          "url": "https://github.com/gear-tech/gear/commit/f6e258b9ef3e26dea4502ae0bc7d6751921def42"
+        },
+        "date": 1671242382176,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 96716,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 67021,
             "unit": "ns"
           },
           {
