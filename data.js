@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671501915536,
+  "lastUpdate": 1671501924249,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -133956,6 +133956,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 68952,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Arsenii Lyashenko",
+            "username": "ark0f",
+            "email": "arsenylyashenko.3@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "64b2a5ecae4ae091f250795fe9f6c8a156f4858d",
+          "message": "Fix panic on wait + exit across executions (#1981)",
+          "timestamp": "2022-12-19T19:28:03Z",
+          "url": "https://github.com/gear-tech/gear/commit/64b2a5ecae4ae091f250795fe9f6c8a156f4858d"
+        },
+        "date": 1671501921719,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 98834,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 67696,
             "unit": "ns"
           },
           {
