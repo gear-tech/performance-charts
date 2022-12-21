@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671587752350,
+  "lastUpdate": 1671587761480,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -135888,6 +135888,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 67696,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Sabaun Taraki",
+            "username": "SabaunT",
+            "email": "taraki.sabaun.rl@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "6350e22643c6b86e2698f07309cc6a762eb3b369",
+          "message": "Make deterministic generation of seed for code seed generator (#1999)",
+          "timestamp": "2022-12-20T20:27:53Z",
+          "url": "https://github.com/gear-tech/gear/commit/6350e22643c6b86e2698f07309cc6a762eb3b369"
+        },
+        "date": 1671587759057,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 97918,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 68968,
             "unit": "ns"
           },
           {
