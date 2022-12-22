@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671674410708,
+  "lastUpdate": 1671674420142,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -137820,6 +137820,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 68968,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dmitry Novikov",
+            "username": "breathx",
+            "email": "novikov.dm.al@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "90d640a9efd636746867753791941eaad7669728",
+          "message": "Fix balances query (#2014)",
+          "timestamp": "2022-12-21T18:13:07Z",
+          "url": "https://github.com/gear-tech/gear/commit/90d640a9efd636746867753791941eaad7669728"
+        },
+        "date": 1671674417531,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 102147,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 67771,
             "unit": "ns"
           },
           {
