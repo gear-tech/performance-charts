@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671760778391,
+  "lastUpdate": 1671760787665,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -139752,6 +139752,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 67771,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "clearloop",
+            "username": "clearloop",
+            "email": "26088946+clearloop@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "b775ae4988edc966c3db16b7da308af1e4f4794b",
+          "message": "feat(program): bumps version of subxt (#1985)",
+          "timestamp": "2022-12-22T11:52:59Z",
+          "url": "https://github.com/gear-tech/gear/commit/b775ae4988edc966c3db16b7da308af1e4f4794b"
+        },
+        "date": 1671760785083,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 99617,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 96340,
             "unit": "ns"
           },
           {
