@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672192746124,
+  "lastUpdate": 1672192754521,
   "repoUrl": "https://github.com/gear-tech/gear",
   "entries": {
     "Gear workspace tests": [
@@ -149412,6 +149412,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "upload_program",
             "value": 67430,
+            "unit": "ns"
+          },
+          {
+            "name": "create_program",
+            "value": 3,
+            "unit": "ns"
+          },
+          {
+            "name": "send_message",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "send_reply",
+            "value": 1,
+            "unit": "ns"
+          },
+          {
+            "name": "claim_value",
+            "value": 0,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Vadim Smirnov",
+            "username": "ukint-vs",
+            "email": "vs@gear-tech.io"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "287208f182b374119585801b96481a1657fe6e47",
+          "message": "Set log target for gear-authorship (#2030)",
+          "timestamp": "2022-12-27T15:52:16Z",
+          "url": "https://github.com/gear-tech/gear/commit/287208f182b374119585801b96481a1657fe6e47"
+        },
+        "date": 1672192752455,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "upload_code",
+            "value": 95323,
+            "unit": "ns"
+          },
+          {
+            "name": "upload_program",
+            "value": 66097,
             "unit": "ns"
           },
           {
