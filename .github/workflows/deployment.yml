@@ -21,3 +21,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: .
+          git-config-email: "41898282+github-actions[bot]@users.noreply.github.com"
+          git-config-name: "github-actions[bot]"
